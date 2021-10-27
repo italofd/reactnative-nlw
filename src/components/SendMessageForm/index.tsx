@@ -4,7 +4,6 @@ import { api } from "../../services/api";
 import { COLORS } from "../../theme";
 import { Button } from "../Button";
 import { styles } from "./styles";
-import { MessageProps } from "../Message";
 
 export function SendMessageForm() {
   const [message, setMessage] = useState("");
